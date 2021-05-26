@@ -14,6 +14,6 @@ for path in ['dev','train']:
 	for pathAndFilename in glob.iglob(os.path.join(current_dir+'/'+path, "*.png")):
 	    title, ext = os.path.splitext(os.path.basename(pathAndFilename))
 	    if path == 'dev':
-	        file_dev.write("data-detection" + "/" + path +'/' + title + '.png' + "\n")
+	        file_dev.write("data" + "/" + path +'/' + title + '.png' + "\n")
 	    elif path == 'train':
-	        file_train.write("data-detection" + "/" + path +'/' + title + '.png' + "\n")	      
+	        file_train.write("data" + "/" + path +'/' + title + '.png' + "\n")	      

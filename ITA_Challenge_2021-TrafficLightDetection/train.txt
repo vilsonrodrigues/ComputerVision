@@ -8,7 +8,6 @@ data/train/002574.png
 data/train/002575.png
 data/train/000566.png
 data/train/000565.png
-data/train/000555.png
 data/train/000559.png
 data/train/000561.png
 data/train/000560.png
@@ -30,19 +29,16 @@ data/train/000543.png
 data/train/000563.png
 data/train/000556.png
 data/train/000542.png
-data/train/000552.png
 data/train/000608.png
 data/train/000607.png
 data/train/000609.png
 data/train/000629.png
 data/train/000628.png
 data/train/000620.png
-data/train/000624.png
 data/train/000618.png
 data/train/000626.png
 data/train/000616.png
 data/train/000632.png
-data/train/000622.png
 data/train/000627.png
 data/train/000621.png
 data/train/000617.png

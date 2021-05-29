@@ -17,5 +17,5 @@ for pathAndFilename in glob.iglob(os.path.join(current_dir, "*.txt")):
 	    	if not line:
 	    		break
 	    	if line:	    		    		
-	    		results.write(title + '.png' + ' ' + line.strip() + "\n")	
-	    data.close()
+	    		results.write(title + '.png' + ' ' + line.strip() + "\n")
+	    data.close()	

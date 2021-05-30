@@ -11,9 +11,10 @@ results = open('results.txt', 'w')
 
 for pathAndFilename in glob.iglob(os.path.join(current_dir, "*.txt")):
 	    title, ext = os.path.splitext(os.path.basename(pathAndFilename))	   
-	    data = open(pathAndFilename, "r")	  
-	    while(True):
-	    	line = data.readline()
+	    data = open(pathAndFilename, "r")
+	    print(pathAndFilename)	  
+	    lines = data.readlines()
+	    for line in lines:
 	    	if not line:
 	    		break
 	    	if line:	    		    		
